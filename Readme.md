@@ -229,7 +229,7 @@ A full run takes roughly 15 minutes, mostly the Random Forest and Gradient Boost
 
 **Stack:** Python, pandas, NumPy, scikit-learn (Pipelines, GridSearchCV), SHAP, matplotlib.
 
-## Sakshi Deshwal
+## Author
 
-**<Your Name>**: aspiring AI/ML engineer.
-[LinkedIn](https://www.linkedin.com/in/<your-handle>) · [GitHub](https://github.com/<your-username>) · <your-email>
+**Sakshi Deshwal**: aspiring AI/ML engineer.
+ [GitHub](https://github.com/Sakshi-Deshwal) · sakshideshwal312@gmail.com
