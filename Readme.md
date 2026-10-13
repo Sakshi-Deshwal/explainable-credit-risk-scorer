@@ -213,16 +213,17 @@ explainable-credit-risk-scorer/
 ├── explainable_credit_risk_score.ipynb   # full analysis, run top to bottom
 ├── README.md
 ├── .gitignore
-└── images/                    # figures used in this README
+└── images/                               # figures used in this README
 ```
 
 ## Reproduce
 
 ```bash
-git clone https://github.com/Sakshi-Deshwal/explainable-credit-risk-scorer.git
+git clone https://github.com/<your-username>/explainable-credit-risk-scorer.git
 cd explainable-credit-risk-scorer
-# download cs-training.csv from Kaggle and place it next to the notebook
-jupyter notebook credit_risk_scorer.ipynb
+pip install pandas numpy scikit-learn matplotlib shap jupyter
+# place cs-training.csv in this folder, next to the notebook
+jupyter notebook explainable_credit_risk_score.ipynb
 ```
 
 A full run takes roughly 15 minutes, mostly the Random Forest and Gradient Boosting grid searches. If you run it in Google Colab, upload `cs-training.csv` to the session first.
