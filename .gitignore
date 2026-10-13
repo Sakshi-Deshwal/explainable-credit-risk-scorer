@@ -1,0 +1,7 @@
+# data is not redistributed; download from Kaggle
+cs-training.csv
+cs-test.csv
+*.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
